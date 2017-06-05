@@ -1,0 +1,22 @@
+@font-face {
+    font-family: tungsten;
+    src: url('fonts/Tungsten-Semibold.woff');
+}
+@font-face {
+    font-family: gotham-medium;
+    src: url('fonts/Gotham-Medium.woff');
+}
+@font-face {
+    font-family: gotham-book;
+    src: url('fonts/Gotham-Book.woff');
+}
+@font-face {
+    font-family: gotham-light;
+    src: url('fonts/Gotham-Light.woff');
+}
+.tungsten {
+  font-family: 'tungsten';
+  text-transform: uppercase;
+  font-weight: 400;
+  line-height: 0.9;
+}
