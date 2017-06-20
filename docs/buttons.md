@@ -1,19 +1,28 @@
 ## Desktop
 Buttons communicates actions that can be made by the user.
-```html|span-3
-<a href="javascript:;" class="pv3 ph4 br-pill bg-c-green white bw1 link dim dib">Purchase button</a>
+```html|
+<a href="javascript:;" class="pv3 ph4 bg-c-red white bw1 link dim dib">Primary Button</a>
 ```
-```html|span-3
-<a href="javascript:;" class="pv3 ph4 br-pill bg-c-blue white bw1 link dim dib">Call to action</a>
+
+```html|
+<a href="javascript:;" class="pv3 ph4 b--gray b--solid gray bw1 link dim dib">Secondary Button </a>
+```
+
+```html|
+<a href="javascript:;" class="pv3 ph4 c-blue bw1 link dim dib">Tertiary Button →</a>
+```
+
+```html|dark
+<a href="javascript:;" class="pv3 ph4 white bw1 link dim dib">Tertiary Button →</a>
 ```
 
 ## Mobile
 Buttons on mobile will span 100% of it's parents or the viewport
 ```html|span-3
-<a href="javascript:;" class="pv3 w-100 tc ph4 br-pill bg-c-green white bw1 link dim dib">Purchase button</a>
+<a href="javascript:;" class="pv3 w-100 tc ph4 bg-c-red white bw1 link dim dib">Primary Button</a>
 ```
 ```html|span-3
-<a href="javascript:;" class="pv3 w-100 tc ph4 br-pill bg-c-blue white bw1 link dim dib">Call to action</a>
+<a href="javascript:;" class="pv3 w-100 tc ph4 gray b--solid bw1 link dim dib">Secondary Button</a>
 ```
 
 ## Button group

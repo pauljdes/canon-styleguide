@@ -1,13 +1,19 @@
 Canons typographical workhorse Gotham must be used throughout the all of Canons digital and print media. The recently introduced supplemental font Tungsten can be used in marketing context, but also in UI elements that need extra emphasis. Please refer below for the font sizes that may be used.
 
-
-
-## User interface typeface
-Gotham
+#### Gotham Medium — Used in body copy and smaller headings
 ```type
 {
-  "headings": [48,36,24,20,16,14,12],
+  "headings": [24,20,16,14,12],
   "font": "gotham-medium",
+  "weight": 500,
+  "color": "#000"
+}
+```
+#### Gotham Light — Used in heading
+```type
+{
+  "headings": [48,36],
+  "font": "gotham-light",
   "weight": 500,
   "color": "#000"
 }
@@ -15,10 +21,10 @@ Gotham
 
 ## Marketing typeface
 
-Tungsten
+#### Tungsten Semibold — Only to be used on H1 and H2 in marketing context
 ```type|kern,smoothen,single
 {
-    "headings": [88, 80],
+    "headings": [88, 64],
     "color": "#000",
     "font": "tungsten",
     "textTransform" : "uppercase"

@@ -1,4 +1,4 @@
-## brand colours
+## Brand & Digital colours
 
 ```color
 span: 3
@@ -8,28 +8,17 @@ value: "#CC0000"
 
 ```color
 span: 2
-name: "CTA Blue"
-value: "#009bd4"
-```
-
-```color
-span: 1
 name: "Link Blue"
-value: "#006fb4"
+value: "#1e8cea"
 ```
 
 ```color
 span: 1
-name: "Purchase Green"
-value: "#6a963b
-"
+name: "Link Blue Visited"
+value: "#234b74"
 ```
-```color
-span: 1
-name: "Canon Deep Lilac"
-value: "#7d0063
-"
-```
+
+
 
 
 ## Monotone colours
@@ -37,13 +26,15 @@ value: "#7d0063
 ```color-palette
 colors:
    - {name: "White", value: "#ffffff"}
-   - {name: "Canon Light Grey", value: "#D0D3D4"}
+   - {name: "Canon Off-white", value: "#f6f7f1"}
+   - {name: "Canon Light Grey", value: "#e2e7e8"}
+   - {name: "Canon Grey", value: "#83868a"}
    - {name: "Canon Dark Grey", value: "#4B4F54"}
-   - {name: "Black 100", value: "#000000"}
+   - {name: "Black", value: "#000000"}
 ```
 
 
-## Secondary colours
+<!-- ## Secondary colours
 ```color-palette
 colors:
    - {name: "100", value: "#a2ad00"}
@@ -52,4 +43,4 @@ colors:
    - {name: "400", value: "#00b2c0"}
    - {name: "500", value: "#009bd4"}
    - {name: "600", value: "#006fb4"}
-```
+``` -->

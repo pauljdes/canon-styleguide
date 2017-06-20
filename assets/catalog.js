@@ -30681,7 +30681,7 @@ var DefaultTheme = {
   background: '#F9F9F9',
   pageHeadingBackground: '#F9F9F9',
   pageHeadingTextColor: '#000',
-  pageHeadingHeight: 220,
+  pageHeadingHeight: 200,
   brandColor: '#4B4F54',
   sidebarColor: '#FFFFFF',
   sidebarColorActive: '#D1312E',
@@ -30725,8 +30725,8 @@ var DefaultTheme = {
   sizeS: 8,
   sizeM: 15,
   sizeL: 21,
-  sizeXl: 28,
-  sizeXxl: 38,
+  sizeXl: 32,
+  sizeXxl: 40,
 
   // The vertical grid unit. Margin, padding, and line-height are set to multiples
   // of this value. This is the value that determines the baseline for our vertical
@@ -30966,7 +30966,7 @@ var textBlock = function textBlock(theme) {
   var level = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 0;
   return _extends$11((_babelHelpers$extends = {}, _babelHelpers$extends[selector] = _extends$11({}, text(theme, level), {
     flexBasis: '100%',
-    margin: '16px 0 0 0'
+    margin: '16px 0 0 0',
   }), _babelHelpers$extends), inlineElements(theme, selector + ' >'));
 };
 
@@ -34997,6 +34997,9 @@ var Span = function (_Component) {
         children = _props.children,
         span = _props.span;
 
+		if (span == undefined) {
+			span = 6
+		}
 
     var style = {
       boxSizing: 'border-box',
@@ -49947,7 +49950,7 @@ var getStyle$1 = function getStyle(theme) {
       overflow: 'scroll',
       WebkitOverflowScrolling: 'touch',
       padding: 20,
-      whiteSpace: 'normal',
+      whiteSpace: 'pre',
       width: '100%'
     }),
     code: {
@@ -54615,16 +54618,15 @@ var Page = function (_Component) {
 
     var pageStyle = {
       boxSizing: 'border-box',
-      margin: '0 20px 0 20px',
+      margin: '32px',
       maxWidth: '64em',
       display: 'flex',
       flexFlow: 'row wrap',
-      padding: '48px 0',
       '@media (min-width: 640px)': {
-        margin: '0 10px 0 20px'
+        margin: '32px'
       },
       '@media (min-width: 1000px)': {
-        margin: '0 30px 0 40px'
+        margin: '80px'
       }
     };
 
@@ -55833,13 +55835,13 @@ function getStyles$1(theme) {
     linkSuperTitle: {
 			color: DefaultTheme.textColor,
       fontSize: theme.fontS,
-      margin: 0,
+      margin: 4,
       fontWeight: 400
     },
     linkTitle: {
 			color: DefaultTheme.linkColor,
       fontSize: theme.fontM,
-      margin: 0,
+      margin: 4,
       fontWeight: 400
     }
   };
@@ -55960,10 +55962,10 @@ var PageHeader = function (_Component) {
       },
       innerHeader: {
         position: 'absolute',
-        bottom: theme.sizeXxl,
-        left: theme.sizeL,
+        bottom: theme.sizeS,
+        left: theme.sizeXl,
         '@media (min-width: 1000px)': {
-          left: theme.sizeL * 2
+          left: theme.sizeXxl * 2
         }
       },
       superTitle: _extends$11({}, text(theme, 0), {
@@ -56008,7 +56010,7 @@ PageHeader.propTypes = {
 
 var PageHeader$1 = Radium(PageHeader);
 
-var SIDEBAR_WIDTH = 320;
+var SIDEBAR_WIDTH = 280;
 var SIDEBAR_ANIMATION_DURATION = 0.4;
 
 var globalStyle = '\n@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,400italic);\n@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700);\n\nbody {\n  margin: 0;\n  padding: 0;\n}\n';
@@ -56047,7 +56049,7 @@ var getStyles = function getStyles(theme, sidebarVisible) {
     menuIcon: {
       cursor: 'pointer',
       height: 30,
-      left: 20,
+      left: 32,
       position: 'absolute',
       top: 20,
       width: 30

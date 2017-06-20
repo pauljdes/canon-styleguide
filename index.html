@@ -8,12 +8,12 @@
 <body>
   <div id="catalog" />
   <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
-  <script src="assets/catalog.js"></script>
+  <script src="assets/catalog1.js"></script>
   <script>
     Catalog.render({
       title: 'Canon Premium',
       logoSrc: "assets/images/canon-logo.svg",
-      styles: ['assets/main.css', 'assets/fonts.css'],
+      styles: ['assets/css/main.css', 'assets/css/fonts.css', 'assets/css/forms.css'],
       pages: [
 
         {
@@ -38,6 +38,11 @@
               path: '/colors',
               title: 'Colors',
               src: 'docs/colors.md'
+            },
+            {
+              path: '/forms',
+              title: 'Form elements',
+              src: 'docs/forms.md'
             }
           ]
         },
