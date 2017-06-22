@@ -1,0 +1,27 @@
+<svg width="18" height="18" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>check</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-133 0)">
+<clipPath id="clip-0" clip-rule="evenodd">
+<path d="M 133 0L 151 0L 151 18L 133 18L 133 0Z" fill="#FFFFFF"/>
+</clipPath>
+<g id="check" clip-path="url(#clip-0)">
+<g id="Ellipse 4">
+<mask id="mask0_outline_ins">
+<use xlink:href="#path0_fill" fill="white" transform="translate(134 1)"/>
+</mask>
+<g mask="url(#mask0_outline_ins)">
+<use xlink:href="#path1_stroke_2x" transform="translate(134 1)"/>
+</g>
+</g>
+<g id="Vector 4">
+<use xlink:href="#path2_stroke" transform="translate(139 7)"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 16 8C 16 12.4183 12.4183 16 8 16C 3.58172 16 0 12.4183 0 8C 0 3.58172 3.58172 0 8 0C 12.4183 0 16 3.58172 16 8Z"/>
+<path id="path1_stroke_2x" d="M 14 8C 14 11.3137 11.3137 14 8 14L 8 18C 13.5228 18 18 13.5228 18 8L 14 8ZM 8 14C 4.68629 14 2 11.3137 2 8L -2 8C -2 13.5228 2.47715 18 8 18L 8 14ZM 2 8C 2 4.68629 4.68629 2 8 2L 8 -2C 2.47715 -2 -2 2.47715 -2 8L 2 8ZM 8 2C 11.3137 2 14 4.68629 14 8L 18 8C 18 2.47715 13.5228 -2 8 -2L 8 2Z"/>
+<path id="path2_stroke" d="M 0.689655 1.56158C 0.289725 1.18069 -0.343252 1.19613 -0.724138 1.59606C -1.10502 1.99599 -1.08959 2.62897 -0.689655 3.00985L 0.689655 1.56158ZM 1.8 4L 1.11034 4.72414L 1.8 5.38095L 2.48966 4.72414L 1.8 4ZM 6.68966 0.724138C 7.08959 0.343252 7.10502 -0.289725 6.72414 -0.689655C 6.34325 -1.08959 5.71028 -1.10502 5.31034 -0.724138L 6.68966 0.724138ZM -0.689655 3.00985L 1.11034 4.72414L 2.48966 3.27586L 0.689655 1.56158L -0.689655 3.00985ZM 2.48966 4.72414L 6.68966 0.724138L 5.31034 -0.724138L 1.11034 3.27586L 2.48966 4.72414Z"/>
+</defs>
+</svg>

@@ -1,34 +1,38 @@
-.bg-c-red {
-  background-color: #CC0000;
-}
-.bg-c-blue {
-  background-color: #009bd4;
-}
-.bg-c-link {
-  background-color: #006fb4;
-}
-.bg-c-green {
-  background-color: #6a963b;
-}
-.bg-c-purple {
-  background-color: #7d0063;
+.c-red { color: #c00; }
+.bg-c-red { background-color: #c00; }
+.b--c-red { border-color: #c00; }
+
+.hover-c-red:hover,
+.hover-c-red:focus { color: #c00; }
+
+.hover-bg-c-red:hover,
+.hover-bg-c-red:focus { background-color: #c00; }
+
+
+.c-blue { color: #009bd4; }
+.bg-c-blue { background-color: #009bd4; }
+.b--c-blue { border-color: #009bd4; }
+
+.hover-c-blue:hover,
+.hover-c-blue:focus { color: #009bd4; }
+
+.hover-bg-c-blue:hover,
+.hover-bg-c-blue:focus { background-color: #009bd4; }
+
+
+.tooltip:before {
+    content: '';
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid #fff;
+    bottom: -8px;
+    filter: drop-shadow(0px 1px 0px rgba(0,0,0,0.3));
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
 }
 
-.c-red {
-  color: #CC0000;
-}
-.c-blue {
-  color: #009bd4;
-}
-.c-link {
-  color: #006fb4;
-}
-.c-green {
-  color: #6a963b;
-}
-.c-purple {
-  color: #7d0063;
-}
+
 body {
   font-family: 'gotham-book';
 }

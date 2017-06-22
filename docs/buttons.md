@@ -2,6 +2,8 @@
 Buttons communicates actions that can be made by the user.
 ```html|
 <a href="javascript:;" class="pv3 ph4 bg-c-red white bw1 link dim dib">Primary Button</a>
+<a href="javascript:;" class="pv3 ph4 bg-c-blue white bw1 link dim dib">Primary Button</a>
+
 ```
 
 ```html|

@@ -1,5 +1,9 @@
 :focus {
-outline: 0;
+  outline: 0;
+}
+
+a:focus {
+  outline: 0;
 }
 
 input:focus {
@@ -60,17 +64,6 @@ input:focus {
     filter: alpha(opacity=100);
     opacity: 1;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 .checkbox input {
   cursor: pointer;

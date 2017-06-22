@@ -45539,6 +45539,7 @@ var Type$3 = function (_React$Component) {
     // Use single word or sentence for headlines
     var headlineText = options.single ? 'Hamburgefonstiv' : 'The quick brown fox jumps over the lazy dog';
 
+		var textTransform = options.textTransform ? { textTransform: options.textTransform } : null;
     var fontColor = options.color ? { color: options.color } : null;
     var isItalic = options.style ? options.style : 'normal';
     var fontFamily = options.font ? options.font : 'inherit';
@@ -45579,7 +45580,13 @@ var Type$3 = function (_React$Component) {
         { style: styles.list },
         'letter-spacing: ',
         options.tracking + ';'
-      ) : null
+      ) : null,
+			textTransform ? react.createElement(
+				'li',
+				{ style: styles.list },
+				'text-transform: ',
+				options.textTransform + ';'
+			) : null
     );
 
     var headings = options.headings ? options.headings.map(function (heading, i) {
@@ -45598,7 +45605,7 @@ var Type$3 = function (_React$Component) {
         ),
         react.createElement(
           'div',
-          { style: _extends$11({}, styles.heading, letterSpacing, { font: isItalic + ' normal ' + fontWeight + ' ' + (heading + isPixel) + ' ' + fontFamily }) },
+          { style: _extends$11({}, styles.heading, letterSpacing, textTransform, { font: isItalic + ' normal ' + fontWeight + ' ' + (heading + isPixel) + ' ' + fontFamily }) },
           headlineText
         )
       );

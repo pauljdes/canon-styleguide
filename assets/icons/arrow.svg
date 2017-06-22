@@ -1,0 +1,19 @@
+<svg width="18" height="18" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>arrow</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-111 0)">
+<clipPath id="clip-0" clip-rule="evenodd">
+<path d="M 111 0L 129 0L 129 18L 111 18L 111 0Z" fill="#FFFFFF"/>
+</clipPath>
+<g id="arrow" clip-path="url(#clip-0)">
+<g id="right">
+<g id="right-large">
+<use xlink:href="#path0_stroke" transform="translate(117 3)"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_stroke" d="M 0.707107 -0.707107C 0.316583 -1.09763 -0.316583 -1.09763 -0.707107 -0.707107C -1.09763 -0.316583 -1.09763 0.316583 -0.707107 0.707107L 0.707107 -0.707107ZM 6 6L 6.70711 6.70711C 7.09763 6.31658 7.09763 5.68342 6.70711 5.29289L 6 6ZM -0.707107 11.2929C -1.09763 11.6834 -1.09763 12.3166 -0.707107 12.7071C -0.316583 13.0976 0.316583 13.0976 0.707107 12.7071L -0.707107 11.2929ZM -0.707107 0.707107L 5.29289 6.70711L 6.70711 5.29289L 0.707107 -0.707107L -0.707107 0.707107ZM 5.29289 5.29289L -0.707107 11.2929L 0.707107 12.7071L 6.70711 6.70711L 5.29289 5.29289Z"/>
+</defs>
+</svg>
