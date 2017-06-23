@@ -47834,7 +47834,7 @@ var getStyles = function getStyles(theme, sidebarVisible) {
       width: SIDEBAR_WIDTH - 1,
       top: 0,
       left: 0,
-      borderRight: '1px solid ' + theme.sidebarColorLine,
+      // borderRight: '1px solid ' + theme.sidebarColorLine,
       transform: 'translateX(' + (sidebarVisible ? 0 : -SIDEBAR_WIDTH) + 'px)',
       transition: 'transform ' + SIDEBAR_ANIMATION_DURATION + 's ease-in-out',
       WebkitOverflowScrolling: 'touch',
