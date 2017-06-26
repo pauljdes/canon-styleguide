@@ -34,33 +34,41 @@ Canons typographical workhorse Gotham must be used throughout the all of Canons 
 ## Typographical ratio
 
 
-```html
-<pre class="mt4">.f-headline</pre>
-<div class="f-headline lh-solid tungsten">Headline</div>
+```html|plain
+<div class="cf pa5">
 
-<pre class="mt4">.f-subheadline</pre>
-<div class="f-subheadline lh-title tungsten">Subheadline</div>
+  <div class="w-50 fl">
+    <pre class="mt4">.f-headline</pre>
+    <div class="f-headline lh-solid tungsten">Headline</div>
 
-<pre class="mt4">.f1</pre>
-<div class="f1">Display 1</div>
+    <pre class="mt4">.f-subheadline</pre>
+    <div class="f-subheadline lh-title tungsten">Subheadline</div>
+  </div>
 
-<pre class="mt4">.f2</pre>
-<div class="f2">Display 2</div>
+  <div class="w-50 fl">
+    <pre class="mt4">.f1</pre>
+    <div class="f1">Display 1</div>
 
-<pre class="mt4">.f3</pre>
-<div class="f3">Display 3</div>
+    <pre class="mt4">.f2</pre>
+    <div class="f2">Display 2</div>
 
-<pre class="mt4">.f4</pre>
-<div class="f4">Heading 4</div>
+    <pre class="mt4">.f3</pre>
+    <div class="f3">Display 3</div>
 
-<pre class="mt4">.f5</pre>
-<div class="f5">Heading 5</div>
+    <pre class="mt4">.f4</pre>
+    <div class="f4">Heading 4</div>
 
-<pre class="mt4">.f6</pre>
-<div class="f6">Heading 6</div>
+    <pre class="mt4">.f5</pre>
+    <div class="f5">Heading 5</div>
 
-<pre class="mt4">.f7</pre>
-<p class="f7">Heading 7</p>
+    <pre class="mt4">.f6</pre>
+    <div class="f6">Heading 6</div>
+
+    <pre class="mt4">.f7</pre>
+    <p class="f7">Heading 7</p>
+  </div>
+
+</div>
 ```
 
 
