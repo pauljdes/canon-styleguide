@@ -109,7 +109,7 @@
             <td class="pv3 pr3 bb b--black-10">
               <div class="radiobutton flex items-center">
                 <input checked class="fl" id="radio-inline-1" type="radio" name="radio-inline-group" value="Yes">
-                <label class="fl" for="radio-inline-1">Yes this dude needs it</label>
+                <label class="fl" for="radio-inline-1"></label>
               </div>
             </td>
             <td class="pv3 pr3 bb b--black-10">Outright price</td>
