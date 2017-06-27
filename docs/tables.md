@@ -69,7 +69,7 @@
         <tr>
           <td class="pv3 pr3 bb b--black-10">
             <div class="checkbox flex items-center mr4">
-              <input class="fl mr2" id="checkbox-inline-1" type="checkbox" name="checkbox-inline-group" value="Yes">
+              <input class="fl" id="checkbox-inline-1" type="checkbox" name="checkbox-inline-group" value="Yes">
               <label class="fl" for="checkbox-inline-1"></label>
             </div>
           </td>
@@ -81,7 +81,7 @@
         <tr>
           <td class="pv3 pr3 bb b--black-10">
             <div class="checkbox flex items-center mr4">
-              <input checked class="fl mr2" id="checkbox-inline-1" type="checkbox" name="checkbox-inline-group" value="Yes">
+              <input checked class="fl" id="checkbox-inline-1" type="checkbox" name="checkbox-inline-group" value="Yes">
               <label class="fl" for="checkbox-inline-1"></label>
             </div>
           </td>
@@ -108,8 +108,8 @@
           <tr>
             <td class="pv3 pr3 bb b--black-10">
               <div class="radiobutton flex items-center">
-                <input checked class="fl mr2" id="radio-inline-1" type="radio" name="radio-inline-group" value="Yes">
-                <label class="fl" for="radio-inline-1"></label>
+                <input checked class="fl" id="radio-inline-1" type="radio" name="radio-inline-group" value="Yes">
+                <label class="fl" for="radio-inline-1">Yes this dude needs it</label>
               </div>
             </td>
             <td class="pv3 pr3 bb b--black-10">Outright price</td>
@@ -118,7 +118,7 @@
           <tr>
             <td class="pv3 pr3 bb b--black-10">
             <div class="radiobutton flex items-center">
-              <input class="fl mr2" id="radio-inline-2" type="radio" name="radio-inline-group" value="No">
+              <input class="fl" id="radio-inline-2" type="radio" name="radio-inline-group" value="No">
               <label class="fl" for="radio-inline-2"></label>
             </div>
             </td>
@@ -128,7 +128,7 @@
           <tr>
             <td class="pv3 pr3">
             <div class="radiobutton flex items-center">
-              <input class="fl mr2" id="radio-inline-2" type="radio" name="radio-inline-group" value="No">
+              <input class="fl" id="radio-inline-2" type="radio" name="radio-inline-group" value="No">
               <label class="fl" for="radio-inline-2"></label>
             </div>
             </td>
