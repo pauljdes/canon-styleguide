@@ -48127,7 +48127,7 @@ function style$4(theme) {
     list: {
       borderBottom: '1px solid ' + theme.sidebarColorLine,
       listStyle: 'none',
-      margin: 0,
+      margin: '0 0 24px 0',
       padding: 0
     },
     listNested: {
@@ -48203,16 +48203,16 @@ var Menu = function (_React$Component) {
           })
         )
       ),
-      react.createElement(
-        'div',
-        { style: currentStyle.info },
-        'Powered by ',
-        react.createElement(
-          'a',
-          { style: currentStyle.link, href: 'http://interactivethings.github.io/catalog', target: '_blank' },
-          'Catalog'
-        )
-      )
+      // react.createElement(
+      //   'div',
+      //   { style: currentStyle.info },
+      //   'Powered by ',
+      //   react.createElement(
+      //     'a',
+      //     { style: currentStyle.link, href: 'http://interactivethings.github.io/catalog', target: '_blank' },
+      //     'Catalog'
+      //   )
+      // )
     );
   };
 

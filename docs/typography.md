@@ -37,7 +37,7 @@ Canons typographical workhorse Gotham must be used throughout the all of Canons 
 ```html|plain
 <div class="cf pa5">
 
-  <div class="w-50 fl">
+  <div class="">
     <pre class="mt4">.f-headline</pre>
     <div class="f-headline lh-solid tungsten">Headline</div>
 
@@ -45,7 +45,7 @@ Canons typographical workhorse Gotham must be used throughout the all of Canons 
     <div class="f-subheadline lh-title tungsten">Subheadline</div>
   </div>
 
-  <div class="w-50 fl">
+  <div class="">
     <pre class="mt4">.f1</pre>
     <div class="f1">Display 1</div>
 
@@ -96,15 +96,18 @@ Canons typographical workhorse Gotham must be used throughout the all of Canons 
   </div>
 </div>
 
-<article class="flex flex-column flex-row-ns ph3 ph4-m ph5-l pv4">
-  <header class="w-50-ns mr3-ns fl lh-copy">
-    <h1 class="tungsten f2 f-subheadline-l lh-title fw9 mb3 mt0 pt4 bt bw2">
-      Type
-    </h1>
-    <div class="f4 lh-copy">
-      An excerpt from the Form of the Book by Jan Tschichold
+<article class="flex flex-column flex-row-ns ph3 ph4-m ph5-l pv4 overflow-hidden">
+  <header class="w-50-ns mr3-ns fl lh-copy flex flex-column justify-between">
+    <div class="">
+      <h1 class="tungsten f2 f-subheadline-l lh-title fw9 mb3 mt0 pt4 bt bw2">
+        Type
+      </h1>
+      <div class="f4 lh-copy">
+        An excerpt from the Form of the Book by Jan Tschichold
+      </div>
+      <div class="f7 ttu tracked mt3">Sometime before 1967</div>
     </div>
-    <div class="f7 ttu tracked mt3">Sometime before 1967</div>
+    <img class="nl6 mv4 mv0-ns" src="assets/images/camera.png" alt="">
   </header>
   <div class="w-50-ns ml3-ns fl lh-copy">
     <p class="f5 lh-copy measure mt0-ns">

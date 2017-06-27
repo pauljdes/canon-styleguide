@@ -104,7 +104,7 @@
   <div class="ph4 pv3 w-100 w-70-ns ba b--black-10">
     <div class="overflow-auto">
       <table class="f6 w-100 mw8 center" cellspacing="0">
-        <tbody class="lh-copy">
+        <tbody class="lh-copy" >
           <tr>
             <td class="pv3 pr3 bb b--black-10">
               <div class="radiobutton flex items-center">

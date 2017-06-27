@@ -10,10 +10,11 @@
   <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
   <script src="assets/catalog1.js"></script>
   <script>
+    var allStyles = ['assets/css/main.css', 'assets/css/fonts.css', 'assets/css/forms.css'];
     Catalog.render({
       title: 'Canon Premium',
       logoSrc: "assets/images/canon-logo.svg",
-      styles: ['assets/css/main.css', 'assets/css/fonts.css', 'assets/css/forms.css'],
+      styles: allStyles,
       pages: [
 
         {
@@ -41,8 +42,13 @@
             },
             {
               path: '/forms',
-              title: 'Form elements',
+              title: 'Form Elements',
               src: 'docs/forms.md'
+            },
+            {
+              path: '/inputs',
+              title: 'Input Elements',
+              src: 'docs/inputs.md'
             },
             {
               path: '/tabs',
@@ -60,30 +66,10 @@
               src: 'docs/tables.md'
             },
             {
-              path: '/tooltips',
-              title: 'Tooltips',
-              src: 'docs/tooltips.md'
-            },
-            {
               path: '/accordions',
               title: 'Accordions',
               src: 'docs/accordions.md'
             },
-          ]
-        },
-        {
-          title: 'Pages',
-          pages: [
-            {
-              path: '/homepage',
-              title: 'Home page',
-              src: 'docs/homepage.md'
-            },
-            {
-              path: '/promotions',
-              title: 'Promotions page',
-              src: 'docs/promotions.md'
-            }
           ]
         }
       ]
