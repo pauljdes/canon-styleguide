@@ -34,7 +34,7 @@ Canons typographical workhorse Gotham must be used throughout the all of Canons 
 ## Typographical ratio
 
 
-```html|plain
+```html
 <div class="cf pa5">
 
   <div class="">
@@ -74,7 +74,7 @@ Canons typographical workhorse Gotham must be used throughout the all of Canons 
 
 ## Typography example
 
-```html|plain
+```html
 <header class="dt w-100">
   <div style="background:url(assets/images/genericimage.jpg) no-repeat center right;background-size: cover;" class="dtc v-mid cover">
     <div class="pa4 pa5-ns">

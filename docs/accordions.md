@@ -1,4 +1,4 @@
-```html|plain
+```html
 <div class="pa4">
   <div class="bb b--black-10 pv3 pa3-ns black-50 hover-black pointer">
     <div class="flex justify-between">
@@ -28,7 +28,7 @@
 
 ## Accordion with image
 
-```html|plain
+```html
 <div class="pa4">
   <div class="bb b--black-10 pv3 pa3-ns black-50 hover-black pointer">
     <div class="flex justify-between">
@@ -44,7 +44,7 @@
     <div class="flex justify-between">
       <span class="truncate pr2 f7 f6-ns">Manual & Documentation Printing</span><span class="rotate-180">▾</span>
     </div>
-    <div class="cf mv2 mv4-ns">
+    <div class="cf mv3 mv4-ns">
       <div class="w-50-ns pr4-ns fl mb4 mb0-ns">
         <img src="assets/images/genericimage.jpg" alt="">
       </div>

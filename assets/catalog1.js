@@ -30551,7 +30551,7 @@ var isInternalPath = function isInternalPath(path, options) {
 
 var DefaultTheme = {
   // Colors
-  background: '#F9F9F9',
+  background: '#fff',
   textColor: '#333333',
   codeColor: '#00263E',
   linkColor: '#FF5555',
@@ -30561,12 +30561,13 @@ var DefaultTheme = {
   lightColor: '#D6D6D6',
 
   // Used in PageHeader
-  pageHeadingBackground: '#f9f9f9',
+  pageHeadingBackground: '#fff',
   pageHeadingTextColor: '#000',
 
   // Used in Menu and PageHeader to make sure the top parts have
   // the same height.
-  pageHeadingHeight: 200,
+  pageHeadingHeight: 140,
+	pageTitleHeight: 200,
 
   // NavigationBar (links), ResponsiveTabs (tab text), Download specimen (title text).
   // Typography: headings.
@@ -30830,7 +30831,7 @@ var textBlock = function textBlock(theme) {
   var selector = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 'p';
   var level = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 0;
   return _extends$11((_babelHelpers$extends = {}, _babelHelpers$extends[selector] = _extends$11({}, text(theme, level), {
-    flexBasis: '100%',
+    width: '100%',
     margin: '16px 0 0 0'
   }), _babelHelpers$extends), inlineElements(theme, selector + ' >'));
 };
@@ -34938,7 +34939,9 @@ var Span = function (_Component) {
         children = _props.children,
         span = _props.span;
 
-
+		if (span == undefined) {
+		  span = 6
+		}
     var style = {
       boxSizing: 'border-box',
       display: 'flex',
@@ -44969,7 +44972,7 @@ function getStyle$2(theme) {
   return {
     container: {
       background: '#fff',
-      border: '1px solid #eee',
+      // border: '1px solid #eee',
       borderRadius: '2px',
       boxSizing: 'border-box',
       position: 'relative',
@@ -46377,9 +46380,10 @@ var Page = function (_Component) {
     var pageStyle = {
       boxSizing: 'border-box',
       margin: '0 20px 0 20px',
-      maxWidth: '64em',
+      maxWidth: '56em',
       display: 'flex',
       flexFlow: 'row wrap',
+			borderTop: '3px solid #eee',
       padding: '48px 0',
       '@media (min-width: 640px)': {
         margin: '0 10px 0 20px'
@@ -47545,7 +47549,7 @@ function getStyles$1(theme) {
   return {
     navbar: {
       width: '100%',
-      backgroundColor: theme.bgLight
+      backgroundColor: theme.background
     },
     navlink: {
       boxSizing: 'border-box',
@@ -47554,7 +47558,7 @@ function getStyles$1(theme) {
       width: '50%',
       transition: '.2s background',
       ':hover': {
-        background: theme.lightColor
+        background: theme.background
       }
     },
     leftNavLink: {
@@ -47573,10 +47577,13 @@ function getStyles$1(theme) {
       }
     },
     link: {
-      color: theme.brandColor,
+      color: theme.sidebarColorText,
       display: 'block',
       fontFamily: theme.fontFamily,
-      textDecoration: 'none'
+      textDecoration: 'none',
+			':hover': {
+				color: theme.sidebarColorActive
+			}
     },
     leftLinkIcon: {
       display: 'none',
@@ -47596,7 +47603,7 @@ function getStyles$1(theme) {
     },
     linkIconPath: {
       stroke: 'none',
-      fill: theme.brandColor
+      fill: theme.sidebarColorText
     },
     linklabels: {
       display: 'block',
@@ -47606,8 +47613,9 @@ function getStyles$1(theme) {
       }
     },
     linkSuperTitle: {
-      fontSize: getFontSize(theme, 0),
-      margin: 0,
+      fontSize: getFontSize(theme, -2),
+      marginBottom: 4,
+			marginTop: 0,
       fontWeight: 400
     },
     linkTitle: {
@@ -47728,25 +47736,36 @@ var PageHeader = function (_Component) {
       outerHeader: {
         boxSizing: 'border-box',
         position: 'relative',
-        height: theme.pageHeadingHeight,
+        height: theme.pageTitleHeight,
         background: theme.pageHeadingBackground
       },
       innerHeader: {
         position: 'absolute',
         bottom: 21,
-        left: 21,
+        left: 20,
         '@media (min-width: 1000px)': {
           left: 82
         }
       },
-      superTitle: _extends$11({}, text(theme, 0), {
+      superTitle: _extends$11({}, text(theme, -1), {
         color: theme.pageHeadingTextColor,
-        opacity: 0.6,
+        //opacity: 0.6,
         margin: 0
       }),
       title: _extends$11({}, heading(theme, 9), {
         color: theme.pageHeadingTextColor,
-        margin: 0
+        margin: 0,
+				borderBottom: '3px solid black',
+				marginBottom: '-24px',
+				whiteSpace: 'pre',
+				textOverflow: 'ellipsis',
+				overflow: 'hidden',
+				'@media (max-width: 1000px)': {
+					fontSize: '56px'
+				},
+				'@media (max-width: 640px)': {
+					fontSize: '32px'
+				}
       })
     };
 
@@ -47821,7 +47840,7 @@ var getStyles = function getStyles(theme, sidebarVisible) {
       cursor: 'pointer',
       height: 30,
       left: 20,
-      position: 'absolute',
+      position: 'fixed',
       top: 20,
       width: 30
     },
@@ -48002,7 +48021,7 @@ function style$5(theme) {
     background: 'rgba(255,255,255,0.1)'
   };
   return {
-    link: _extends$11({}, text(theme), {
+    link: _extends$11({}, text(theme, -1), {
       borderTop: '1px solid ' + theme.sidebarColorLine,
       color: theme.sidebarColorText,
       cursor: 'pointer',

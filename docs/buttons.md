@@ -2,6 +2,10 @@
 Buttons communicates actions that can be made by the user.
 ```html|
 <a href="javascript:;" class="pv3 ph4 bg-c-red white bw1 link dim dib">Primary Button</a>
+
+```
+
+```html|
 <a href="javascript:;" class="pv3 ph4 bg-c-blue white bw1 link dim dib">Primary Button</a>
 
 ```
@@ -20,11 +24,8 @@ Buttons communicates actions that can be made by the user.
 
 ## Mobile
 Buttons on mobile will span 100% of it's parents or the viewport
-```html|span-3
+```html
 <a href="javascript:;" class="pv3 w-100 tc ph4 bg-c-red white bw1 link dim dib">Primary Button</a>
-```
-```html|span-3
-<a href="javascript:;" class="pv3 w-100 tc ph4 gray b--solid bw1 link dim dib">Secondary Button</a>
 ```
 
 ## Button group

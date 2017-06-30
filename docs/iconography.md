@@ -1,4 +1,4 @@
-```html|plain
+```html
 <div class="pa5 flex flex-wrap measure-wide center">
   <img class="pa2" src="assets/icons/accessibility.svg" alt="">
   <img class="pa2" src="assets/icons/account.svg" alt="">
@@ -28,7 +28,7 @@
 
 ## Icons with label
 
-```html|plain
+```html
 <div class="pa5 measure-wide center">
   <div class="dt mw6 center">
     <div class="dtc v-mid">
