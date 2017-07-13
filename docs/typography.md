@@ -1,4 +1,11 @@
-Canons typographical workhorse Gotham must be used throughout the all of Canons digital and print media. The recently introduced supplemental font Tungsten can be used in marketing context, but also in UI elements that need extra emphasis. Please refer below for the font sizes that may be used.
+```html|plain,span-4,no-source
+<div class="f4 mb4 lh-copy">
+Gotham is Canons typographical workhorse, and used throughout the brand. For extra emphasis use Tungsten in header elements.
+</div>
+<div class="f4 mb4 lh-copy">
+Don't overtax the users with Tungsten as it may be hard to digest the content when used in abundance.
+</div>
+```
 
 <!-- #### Gotham Book Used in body copy and smaller headings
 ```type
@@ -76,15 +83,11 @@ Canons typographical workhorse Gotham must be used throughout the all of Canons 
 
 ```html
 <header class="dt w-100">
-  <div style="background:url(assets/images/genericimage.jpg) no-repeat center right;background-size: cover;" class="dtc v-mid cover">
-    <div class="pa4 pa5-ns">
-      <h1 class="f2 f-subheadline-l tungsten white lh-title fw9 ma0">A Night Taking Photos at San Francisco’s Spooky Ruins of the Sutro Baths</h1>
-      <h2 class="f4 fw6 white ma0 mt3">A story by Nancy Drew</h2>
-    </div>
+  <div style="background:url(assets/images/genericimage.jpg) no-repeat center right;background-size: cover;" class="dtc h5 v-mid cover">
   </div>
 </header>
 <div class="ph3 ph4-m ph5-l pv4">
-  <div class="cf">
+  <div class="cf nt6">
     <p class="f7 tc ttu tracked center">Cameras</p>
     <div class="f1 f-headline-l lh-solid tungsten mb4 tc center">Premium</div>
     <div class="f4 mb4 lh-copy tc center measure-wide">For premium results, Canon’s PowerShot G series cameras have a 1.0-type sensor with a light-sensitive area over 4 times larger than conventional compacts.</div>
@@ -116,8 +119,11 @@ Canons typographical workhorse Gotham must be used throughout the all of Canons 
       the result of long experience. Now and then they even attain the rank of
       great artistic achievement. But the art of typesetting stands apart from
       ex- pressive artwork, because the appeal is not limited to a small
-      circle. It is open to everyone's critical judgment, and nowhere does this
-      judgment carry more weight. Typography that can- not be read by everybody
+      circle.
+
+    </p>
+    <p>
+      Judgment carry more weight. Typography that can- not be read by everybody
       is useless. Even for someone who constantly ponders matters of
       readability and legibility, it is difficult to determine whether
       something can be read with ease, but the average reader will rebel at

@@ -1,5 +1,13 @@
-#### How do you renew a successful brand?
+```html|plain,span-4,no-source
+<div class="f4 mb4 lh-copy">
+  Canon's design system is a source of design patterns that helps guiding our brand. Unifing our digital products into a more consistent experience.
+</div>
 
-#### In reality, it does so itself: after all, a successful brand is always ahead of its time. So let’s simply let it breathe more freely and adopt a new perspective. In other words: let’s approach it from a digital angle. The visual appearance is no longer a static structure: it’s a living interface that interacts with human beings.
+<div class="f4 mb4 lh-copy">
+  It's a document that designers, developers and product owners can look at to start building consistent user experiences.
+</div>
 
-#### This platform provides a direct, straightforward path to approaching the design of the Canon brand. It offers lots of examples and instructions that convey the essentials and provide inspiration for ideas – and it’s structured in such a way that you can get started right away
+<div class="f4 mb4 lh-copy">
+  Jump start prototyping with this design system, making user testing more reliable with actual living documents — not static imagery.
+</div>
+```

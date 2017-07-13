@@ -9,14 +9,12 @@
 ```
 ```html|plain,span-3,no-source
 <p class="f3 lh-copy">
-  Animation is used to solidify interactions with character and delight. Motion does wonders to help the overall user experience in the digital world by helping the user understand the intended reaction.
+Motion brings pages to life, delights the user and brings familiarity from the physical world. But more importantly helping users understand the spatial relationship between elements.
 </p>
 
 <ul class="list pa0">
-  <li class="lh-copy pv3 ba bl-0 bt-0 br-0 b--solid b--black-10">Character, polish, and delight</li>
-  <li class="lh-copy pv3 ba bl-0 bt-0 br-0 b--solid b--black-10">Guided focus between views</li>
-  <li class="lh-copy pv3 ba bl-0 bt-0 br-0 b--solid b--black-10">Hints at what will happen if a user completes a gesture</li>
-  <li class="lh-copy pv3 ba bl-0 bt-0 br-0 b--solid b--black-10">Hierarchical and spatial relationships between elements</li>
-  <li class="lh-copy pv3 ba bl-0 bt-0 br-0 b--solid b--black-10">Distraction from what’s happening behind the scenes (like fetching content or loading the next view)</li>
+  <li class="lh-copy pv3 ba bl-0 bt-0 br-0 b--solid b--black-10">Delighting the users with silky smooth animations.</li>
+  <li class="lh-copy pv3 ba bl-0 bt-0 br-0 b--solid b--black-10">Guiding the users focus on what's happening on their screens.</li>
+  <li class="lh-copy pv3 ba bl-0 bt-0 br-0 b--solid b--black-10"> Keeping the users attention.</li>
 </ul>
 ```

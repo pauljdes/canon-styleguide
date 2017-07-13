@@ -1,3 +1,10 @@
+```html|plain,span-4,no-source
+<div class="f4 mb4 lh-copy">
+Iconography is used to aid comprehension for text content. Icons transcend languages and helps the user make faster decisions. We're not making this up. It's science!
+</div>
+```
+
+
 ```html
 <div class="pa5 flex flex-wrap measure-wide center">
   <img class="pa2" src="assets/icons/accessibility.svg" alt="">
@@ -26,7 +33,7 @@
 </div>
 ```
 
-## Icons with label
+<!-- ## Icons with label
 
 ```html
 <div class="pa5 measure-wide center">
@@ -41,4 +48,4 @@
     </div>
   </div>
 </div>
-```
+``` -->

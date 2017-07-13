@@ -45006,7 +45006,7 @@ function getStyle$2(theme) {
       height: 'auto'
     },
     content: {
-      background: 'url(' + theme.checkerboardPatternLight + ')',
+      background: '#fafafa',
       boxSizing: 'border-box',
       display: 'block',
       padding: 20,
