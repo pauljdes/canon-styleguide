@@ -26,20 +26,20 @@ colors:
 ```color-palette|span-2
 colors:
 
-   - {name: "Link Blue Light", value: "#e4f1fc"}
-   - {name: "Link Blue Lighten", value: "#87d3f8"}
-   - {name: "Link Blue", value: "#1e8cea"}
-   - {name: "Link Blue Darken", value: "#0e5a9b"}
-   - {name: "Link Blue Dark", value: "#00284a"}
+   - {name: "Link Blue Light", value: "#d7f0ff"}
+   - {name: "Link Blue Lighten", value: "#53d4ff"}
+   - {name: "Link Blue", value: "#006fb4"}
+   - {name: "Link Blue Darken", value: "#004773"}
+   - {name: "Link Blue Dark", value: "#001f32"}
 ```
 ```color-palette|span-2
 colors:
 
-   - {name: "Canon Green Light", value: "#e1f8e7"}
-   - {name: "Canon Green Lighten", value: "#74ea84"}
-   - {name: "Canon Green", value: "#27a249"}
-   - {name: "Canon Green Darken ", value: "#19682f"}
-   - {name: "Canon Green Dark", value: "#003810"}
+   - {name: "Canon Green Light", value: "#e2f4e4"}
+   - {name: "Canon Green Lighten", value: "#7bdf75"}
+   - {name: "Canon Green", value: "#328538"}
+   - {name: "Canon Green Darken ", value: "#205524"}
+   - {name: "Canon Green Dark", value: "#003304"}
 ```
 ## UI colours
 ```color-palette|span-3
