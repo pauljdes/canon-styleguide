@@ -46383,7 +46383,7 @@ var Page = function (_Component) {
       maxWidth: '56em',
       display: 'flex',
       flexFlow: 'row wrap',
-			borderTop: '3px solid #eee',
+			borderTop: '2px solid #eee',
       padding: '48px 0',
       '@media (min-width: 640px)': {
         margin: '0 10px 0 20px'
@@ -47755,8 +47755,8 @@ var PageHeader = function (_Component) {
       title: _extends$11({}, heading(theme, 9), {
         color: theme.pageHeadingTextColor,
         margin: 0,
-				borderBottom: '3px solid black',
-				marginBottom: '-24px',
+				borderBottom: '2px solid black',
+				marginBottom: '-23px',
 				whiteSpace: 'pre',
 				textOverflow: 'ellipsis',
 				overflow: 'hidden',

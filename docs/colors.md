@@ -10,9 +10,9 @@ The colours represent the brand. As showed the most important colour is the Cano
 ## Brand & Digital colours
 
 ```html|plain
-<span class="mr4 mb4 dib"><span class="bg-c-red white br-pill pv1 ph2">Red</span> for marketing.</span>
-<span class="mr4 mb4 dib"><span class="bg-c-blue white br-pill pv1 ph2">Blue</span> for call-to-actions.</span>
-<span class="mr4 mb4 dib"><span class="bg-c-green white br-pill pv1 ph2">Green</span> for purchases.</span>
+<span class="mr4 mb4 dib"><span class="c-red">Red</span> for marketing.</span>
+<span class="mr4 mb4 dib"><span class="c-blue">Blue</span> for call-to-actions.</span>
+<span class="mr4 mb4 dib"><span class="c-green">Green</span> for purchases.</span>
 ```
 
 ```color-palette|span-2
