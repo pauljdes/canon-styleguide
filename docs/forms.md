@@ -1,7 +1,7 @@
 ## Input single
 
 ```html
-<div class="flex flex-wrap pa4">
+<div class="flex flex-wrap pa0 pa4-ns">
   <form class="w-100">
     <section class="pv2 black-80 w-100 fl">
       <label for="password" class="f6 b db mb2">Enter your name</label>
@@ -15,7 +15,7 @@
 ## Input example
 
 ```html
-<div class="flex flex-wrap pa4">
+<div class="flex flex-wrap pa0 pa4-ns">
   <form>
     <section class="pv3 pr3-ns black-80 w-100 w-50-ns fl">
       <label for="name" class="f6 b db mb2">Name <span class="normal black-60">(optional)</span></label>
@@ -40,13 +40,13 @@
     </section>
   </form>
 
-  <a href="javascript:;" class="pv3 ph4 bg-c-red white link dim dib">Log in</a>
+  <a href="javascript:;" class="pv3 ph4 bg-c-blue white link dim dib">Log in</a>
 </div>
 ```
 
 
 ```html
-<div class="flex flex-wrap pa4">
+<div class="flex flex-wrap pa0 pa4-ns">
   <form class="w-100">
     <fieldset class="mv3 b--black-20 b--solid">
       <legend class="f6">Title of fieldset</legend>
@@ -73,6 +73,6 @@
       <input id="password" class="mb2 input-reset bg-transparent b--black-20 pv3 ph3 bt-0 bl-0 br-0 bw1 bb w-100" type="text" aria-describedby="pass-desc">
     </section>
   </form>
-  <a href="javascript:;" class="pv3 ph4 bg-c-red white link dim dib">Log in</a>
+  <a href="javascript:;" class="pv3 ph4 bg-c-blue white link dim dib">Log in</a>
 </div>
 ```

@@ -6,7 +6,7 @@ Iconography is used to aid comprehension for text content. Icons transcend langu
 
 
 ```html
-<div class="pa5 flex flex-wrap measure-wide center">
+<div class="pa0 pa4-ns flex flex-wrap measure-wide center">
   <img class="pa2" src="assets/icons/accessibility.svg" alt="">
   <img class="pa2" src="assets/icons/account.svg" alt="">
   <img class="pa2" src="assets/icons/arrow.svg" alt="">

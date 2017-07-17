@@ -42,34 +42,34 @@ Don't overtax the users with Tungsten as it may be hard to digest the content wh
 
 
 ```html
-<div class="cf pa5">
+<div class="cf pa0 pa4-ns">
 
   <div class="">
     <pre class="mt4">.f-headline</pre>
-    <div class="f-headline lh-solid tungsten">Headline</div>
+    <div class="f1 f-headline-ns lh-solid tungsten">Headline</div>
 
     <pre class="mt4">.f-subheadline</pre>
-    <div class="f-subheadline lh-title tungsten">Subheadline</div>
+    <div class="f2 f-subheadline-ns lh-title tungsten">Subheadline</div>
   </div>
 
   <div class="">
     <pre class="mt4">.f1</pre>
-    <div class="f1">Display 1</div>
+    <div class="f2 f1-ns">Display 1</div>
 
     <pre class="mt4">.f2</pre>
-    <div class="f2">Display 2</div>
+    <div class="f3 f2-ns">Display 2</div>
 
     <pre class="mt4">.f3</pre>
-    <div class="f3">Display 3</div>
+    <div class="f4 f3-ns">Display 3</div>
 
     <pre class="mt4">.f4</pre>
-    <div class="f4">Heading 4</div>
+    <div class="f5 f4-ns">Heading 4</div>
 
     <pre class="mt4">.f5</pre>
-    <div class="f5">Heading 5</div>
+    <div class="f6 f5-ns">Heading 5</div>
 
     <pre class="mt4">.f6</pre>
-    <div class="f6">Heading 6</div>
+    <div class="f7 f6-ns b normal-ns">Heading 6</div>
 
     <pre class="mt4">.f7</pre>
     <p class="f7">Heading 7</p>
@@ -87,7 +87,7 @@ Don't overtax the users with Tungsten as it may be hard to digest the content wh
   </div>
 </header>
 <div class="ph3 ph4-m ph5-l pv4">
-  <div class="cf nt6">
+  <div class="cf">
     <p class="f7 tc ttu tracked center">Cameras</p>
     <div class="f1 f-headline-l lh-solid tungsten mb4 tc center">Premium</div>
     <div class="f4 mb4 lh-copy tc center measure-wide">For premium results, Canon’s PowerShot G series cameras have a 1.0-type sensor with a light-sensitive area over 4 times larger than conventional compacts.</div>

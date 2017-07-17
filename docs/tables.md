@@ -1,6 +1,6 @@
 
 ```html
-<div class="pa4">
+<div class="pa0 pa4-ns">
   <div class="overflow-auto">
     <table class="f6 w-100 mw8 center" cellspacing="0">
       <thead>
@@ -53,7 +53,7 @@
 
 
 ```html
-<div class="pa4">
+<div class="pa0 pa4-ns">
   <div class="overflow-auto">
     <table class="f6 w-100 mw8 center" cellspacing="0">
       <thead>
@@ -100,7 +100,7 @@
 
 
 ```html
-<div class="pa4">
+<div class="pa0 pa4-ns">
   <div class="ph4 pv3 w-100 w-70-ns ba b--black-10 bg-white">
     <div class="overflow-auto">
       <table class="f6 w-100 mw8 center" cellspacing="0">

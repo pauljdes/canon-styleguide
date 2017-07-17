@@ -1,5 +1,5 @@
 ```html
-<div class="pa4">
+<div class="pa0 pa4-ns">
   <div class="bb b--black-10 pv3 pa3-ns black-50 hover-black pointer">
     <div class="flex justify-between">
       <span class="truncate pr2 f7 f6-ns">Digital Book Printing</span><span>▾</span>
@@ -29,7 +29,7 @@
 ## Accordion with image
 
 ```html
-<div class="pa4">
+<div class="pa0 pa4-ns">
   <div class="bb b--black-10 pv3 pa3-ns black-50 hover-black pointer">
     <div class="flex justify-between">
       <span class="truncate pr2 f7 f6-ns">Digital Book Printing</span><span>▾</span>

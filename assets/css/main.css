@@ -17,15 +17,25 @@
 .hover-bg-c-red:focus { background-color: #c00; }
 
 
-.c-blue { color: #009bd4; }
-.bg-c-blue { background-color: #009bd4; }
-.b--c-blue { border-color: #009bd4; }
+.c-blue { color: #1e8cea; }
+.bg-c-blue { background-color: #1e8cea; }
+.b--c-blue { border-color: #1e8cea; }
 
 .hover-c-blue:hover,
-.hover-c-blue:focus { color: #009bd4; }
+.hover-c-blue:focus { color: #1e8cea; }
 
 .hover-bg-c-blue:hover,
-.hover-bg-c-blue:focus { background-color: #009bd4; }
+.hover-bg-c-blue:focus { background-color: #1e8cea; }
+
+.c-green { color: #27a249; }
+.bg-c-green { background-color: #27a249; }
+.b--c-green { border-color: #27a249; }
+
+.hover-c-green:hover,
+.hover-c-green:focus { color: #27a249; }
+
+.hover-bg-c-green:hover,
+.hover-bg-c-green:focus { background-color: #27a249; }
 
 img {
   display: block;

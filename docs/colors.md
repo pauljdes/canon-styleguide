@@ -9,34 +9,39 @@ The colours represent the brand. As showed the most important colour is the Cano
 
 ## Brand & Digital colours
 
+```html|plain
+<span class="mr4 mb4 dib"><span class="bg-c-red white br-pill pv1 ph2">Red</span> for marketing.</span>
+<span class="mr4 mb4 dib"><span class="bg-c-blue white br-pill pv1 ph2">Blue</span> for call-to-actions.</span>
+<span class="mr4 mb4 dib"><span class="bg-c-green white br-pill pv1 ph2">Green</span> for purchases.</span>
+```
 
 ```color-palette|span-2
 colors:
-   - {name: "Canon Red Light", value: "#f3a5ba"}
-   - {name: "Canon Red Lighten", value: "#ff0000"}
+   - {name: "Canon Red Light", value: "#ffdada"}
+   - {name: "Canon Red Lighten", value: "#ff6075"}
    - {name: "Canon Red", value: "#cc0000"}
-   - {name: "Canon Red Darken", value: "#7a1000"}
-   - {name: "Canon Red Dark", value: "#140300"}
+   - {name: "Canon Red Darken", value: "#830000"}
+   - {name: "Canon Red Dark", value: "#390000"}
 ```
 ```color-palette|span-2
 colors:
 
-   - {name: "Link Blue Light", value: "#def2f6"}
-   - {name: "Link Blue Lighten", value: "#43aaed"}
+   - {name: "Link Blue Light", value: "#e4f1fc"}
+   - {name: "Link Blue Lighten", value: "#87d3f8"}
    - {name: "Link Blue", value: "#1e8cea"}
-   - {name: "Link Blue Darken", value: "#104da7"}
-   - {name: "Link Blue Dark", value: "#082248"}
+   - {name: "Link Blue Darken", value: "#0e5a9b"}
+   - {name: "Link Blue Dark", value: "#00284a"}
 ```
 ```color-palette|span-2
 colors:
 
-   - {name: "Canon Green Light", value: "#b7deb7"}
-   - {name: "Canon Green Lighten", value: "#2fc34e"}
+   - {name: "Canon Green Light", value: "#e1f8e7"}
+   - {name: "Canon Green Lighten", value: "#74ea84"}
    - {name: "Canon Green", value: "#27a249"}
-   - {name: "Canon Green Darken ", value: "#176035"}
-   - {name: "Canon Green Dark", value: "#040e08"}
+   - {name: "Canon Green Darken ", value: "#19682f"}
+   - {name: "Canon Green Dark", value: "#003810"}
 ```
-## Monotone colours
+## UI colours
 ```color-palette|span-3
 colors:
    - {name: "White", value: "#ffffff"}
@@ -58,16 +63,18 @@ colors:
 $canon-red : #cc0000;
 $canon-blue : #1e8cea;
 $canon-green : #27a249;
+$canon-teal : #41bdbb;
+$canon-purple : #5c369e;
+$canon-yellow : #ecd340;
 
-// color variable map
 
-@function color-palette($color) {
+@function color-palette($color) {  
   $map: (
-     light: desaturate(adjust-hue(lighten($color, 40%), -16%), 24%),
-     lighter: adjust-hue(lighten($color, 8%), -4%),
+     light: scale-color($color, $lightness: 88%),
+     lighter: adjust-hue(scale-color($color, $lightness: 48%, $saturation: 32%), -8%),
      base: $color,
-     darker: adjust-hue(darken($color, 16%), 8%),
-     dark: desaturate(adjust-hue(darken($color, 36%), 8%), 4%)
+     darker: adjust-hue(scale-color($color, $lightness: -36%), 0%),
+     dark: scale-color($color, $lightness: -72%, $saturation: 100%)
   );
   @return $map;
 }
@@ -75,7 +82,10 @@ $canon-green : #27a249;
 $colors: (
   canon-red: color-palette($canon-red),
   canon-blue: color-palette($canon-blue),
-  canon-green: color-palette($canon-green)
+  canon-green: color-palette($canon-green),
+  canon-teal: color-palette($canon-teal),
+  canon-purple: color-palette($canon-purple),
+  canon-yellow: color-palette($canon-yellow)
 );
 
 // retrieve color from map ie. `color(primary, base)`
@@ -83,6 +93,7 @@ $colors: (
   // color variant is optional
   @if ($color-variant != null) {
     // map inception
+
     @return map-get(map-get($colors, $color-name), $color-variant);
   } @else {
     @return map-get(map-get($colors, $color-name), base);
@@ -91,26 +102,58 @@ $colors: (
 
 .c-red-light { background: color(canon-red, light); }
 .c-red-lighter { background: color(canon-red, lighter); }
-.c-red { background: color(canon-red, base); }
-.c-red-darker { background: color(canon-red, darker); }
-.c-red-dark { background: color(canon-red, dark); }
+.c-red { background: color(canon-red); }
+.c-red-darker { background: color(canon-red, darker); color:#fff;}
+.c-red-dark { background: color(canon-red, dark); color:#fff;}
 
 .c-blue-light { background: color(canon-blue, light); }
 .c-blue-lighter { background: color(canon-blue, lighter); }
-.c-blue { background: color(canon-blue, base); }
-.c-blue-darker { background: color(canon-blue, darker); }
-.c-blue-dark { background: color(canon-blue, dark); }
+.c-blue { background: color(canon-blue); }
+.c-blue-darker { background: color(canon-blue, darker); color:#fff;}
+.c-blue-dark { background: color(canon-blue, dark); color:#fff;}
 
 .c-green-light { background: color(canon-green, light); }
 .c-green-lighter { background: color(canon-green, lighter); }
-.c-green { background: color(canon-green, base); }
-.c-green-darker { background: color(canon-green, darker); }
-.c-green-dark { background: color(canon-green, dark); }
+.c-green { background: color(canon-green); }
+.c-green-darker { background: color(canon-green, darker); color:#fff;}
+.c-green-dark { background: color(canon-green, dark); color:#fff;}
 
+.c-teal-light { background: color(canon-teal, light); }
+.c-teal-lighter { background: color(canon-teal, lighter); }
+.c-teal { background: color(canon-teal); }
+.c-teal-darker { background: color(canon-teal, darker); color:#fff;}
+.c-teal-dark { background: color(canon-teal, dark); color:#fff;}
+
+.c-purple-light { background: color(canon-purple, light); }
+.c-purple-lighter { background: color(canon-purple, lighter); }
+.c-purple { background: color(canon-purple); }
+.c-purple-darker { background: color(canon-purple, darker); color:#fff;}
+.c-purple-dark { background: color(canon-purple, dark); color:#fff;}
+
+.c-yellow-light { background: color(canon-yellow, light); }
+.c-yellow-lighter { background: color(canon-yellow, lighter); }
+.c-yellow { background: color(canon-yellow); }
+.c-yellow-darker { background: color(canon-yellow, darker); color:#fff;}
+.c-yellow-dark { background: color(canon-yellow, dark); color:#fff;}
+
+
+.columns {
+  display:flex;
+  flex-wrap: wrap;
+}
+.column {
+  display:flex;
+  flex-direction: column;
+  margin-right: 24px;
+}
 [class^='c-'] {
-  height: 60px;
-  width: 300px;
+  width: 160px;
   display:inline-block;
-  float:left;
+  padding: 24px;
+  i {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-style: normal;
+  }  
 }
 ```
