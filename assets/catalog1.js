@@ -46380,7 +46380,7 @@ var Page = function (_Component) {
     var pageStyle = {
       boxSizing: 'border-box',
       margin: '0 20px 0 20px',
-      maxWidth: '56em',
+      maxWidth: '64em',
       display: 'flex',
       flexFlow: 'row wrap',
 			borderTop: '2px solid #eee',
