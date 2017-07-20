@@ -48027,7 +48027,7 @@ function style$5(theme) {
       cursor: 'pointer',
       display: 'block',
       margin: 0,
-      padding: '16px 40px',
+      padding: '12px 40px',
       textDecoration: 'none',
       ':hover': pseudo,
       ':active': pseudo
@@ -48146,7 +48146,7 @@ function style$4(theme) {
     list: {
       borderBottom: '1px solid ' + theme.sidebarColorLine,
       listStyle: 'none',
-      margin: '0 0 24px 0',
+      margin: '8px 0',
       padding: 0
     },
     listNested: {

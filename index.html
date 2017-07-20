@@ -4,20 +4,21 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Canon</title>
-</head>
-<body>
-  <style media="screen">
+  <style  media="screen">
   ::-webkit-scrollbar {
       display: none;
       width: 0;
       background: 0 0;
   }
   </style>
+</head>
+<body>
+
   <div id="catalog" />
   <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
   <script src="assets/catalog1.js"></script>
   <script>
-    var allStyles = ['assets/css/main.css', 'assets/css/fonts.css', 'assets/css/forms.css', 'assets/css/motion.css'];
+    var allStyles = ['assets/css/canyons.css', 'assets/css/main.css', 'assets/css/fonts.css', 'assets/css/forms.css', 'assets/css/motion.css'];
     Catalog.render({
       title: 'Canon Premium',
       logoSrc: "assets/images/canon-logo.svg",
@@ -60,12 +61,32 @@
           ]
         },
         {
-          title: 'Design atoms',
+          title: 'Design Tokens',
           pages: [
             {
               path: '/width',
-              title: 'width',
+              title: 'Width',
               src: 'docs/tokens/width.md'
+            },
+            {
+              path: '/height',
+              title: 'Height',
+              src: 'docs/tokens/height.md'
+            },
+            {
+              path: '/spacing',
+              title: 'Spacing',
+              src: 'docs/tokens/spacing.md'
+            },
+            {
+              path: '/typescale',
+              title: 'Typescale',
+              src: 'docs/tokens/typescale.md'
+            },
+            {
+              path: '/shadow',
+              title: 'Shadow',
+              src: 'docs/tokens/shadow.md'
             }
           ]
         },

@@ -15,8 +15,8 @@
 ## Input example
 
 ```html
-<div class="flex flex-wrap pa0 pa4-ns">
-  <form>
+<div >
+  <form class="flex flex-wrap pa0 pa4-ns">
     <section class="pv3 pr3-ns black-80 w-100 w-50-ns fl">
       <label for="name" class="f6 b db mb2">Name <span class="normal black-60">(optional)</span></label>
       <input id="name" class="mb2 input-reset bg-transparent b--black-20 pv3 ph1 bt-0 bl-0 br-0 bw1 bb w-100" type="text" aria-describedby="name-desc">
@@ -38,9 +38,10 @@
       <label for="password" class="f6 b db mb2">Full width form</label>
       <input id="password" class="mb2 input-reset bg-transparent b--black-20 pv3 ph1 bt-0 bl-0 br-0 bw1 bb w-100" type="text" aria-describedby="pass-desc">
     </section>
+    <a href="javascript:;" class="pv3 ph4 bg-c-blue white link dim dib">Log in</a>
+
   </form>
 
-  <a href="javascript:;" class="pv3 ph4 bg-c-blue white link dim dib">Log in</a>
 </div>
 ```
 
