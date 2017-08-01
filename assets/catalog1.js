@@ -47801,7 +47801,7 @@ PageHeader.propTypes = {
 var PageHeader$1 = Radium(PageHeader);
 
 var SIDEBAR_WIDTH = 251;
-var SIDEBAR_ANIMATION_DURATION = 0.25;
+var SIDEBAR_ANIMATION_DURATION = 0.6;
 
 var globalStyle = '\n@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,400italic);\n@import url(https://fonts.googleapis.com/css?family=Roboto+Mono:400,700);\n\nbody {\n  margin: 0;\n  padding: 0;\n}\n';
 
@@ -47855,7 +47855,7 @@ var getStyles = function getStyles(theme, sidebarVisible) {
       left: 0,
       // borderRight: '1px solid ' + theme.sidebarColorLine,
       transform: 'translateX(' + (sidebarVisible ? 0 : -SIDEBAR_WIDTH) + 'px)',
-      transition: 'transform ' + SIDEBAR_ANIMATION_DURATION + 's ease-in-out',
+      transition: 'transform ' + SIDEBAR_ANIMATION_DURATION + 's cubic-bezier(0,1,0,1)',
       WebkitOverflowScrolling: 'touch',
       '@media (min-width: 1000px)': {
         transform: 'translateX(0px)',
@@ -47868,7 +47868,7 @@ var getStyles = function getStyles(theme, sidebarVisible) {
       left: 0,
       width: '100vw',
       height: '100vh',
-      backgroundColor: 'rgba(0, 0, 0, 0.2)',
+      backgroundColor: 'rgba(50, 25, 25, 0.2)',
       opacity: sidebarVisible ? 1 : 0,
       visibility: sidebarVisible ? 'visible' : 'hidden',
       transition: 'opacity ' + SIDEBAR_ANIMATION_DURATION + 's, visibility ' + SIDEBAR_ANIMATION_DURATION + 's',

@@ -4,7 +4,7 @@
 <div class="flex flex-column">
   <div class="flex mb3 items-center"><code class="mr3">.pa0</code>
     <div class="pa0 dib bg-measure ba b--black-10 black">
-      <div class="w1 h1 bg-white o-50"></div>
+      <div class="w1 h1 bg-c-red o-50"></div>
     </div>
   </div>
   <div class="flex mb3 items-center"><code class="mr3">.pa1</code><div class="pa1 dib bg-measure ba b--black-10 black"><div class="w1 h1 bg-c-red o-50"></div></div></div>

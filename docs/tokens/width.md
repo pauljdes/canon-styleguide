@@ -13,13 +13,17 @@
   <div class="mr3">
     <div class="f6 h1 mb2 lh-solid fw3 code">
       .w1 (1rem)
-    </div><div class="f6 h1 mb2 lh-solid fw3 code">
+    </div>
+    <div class="f6 h1 mb2 lh-solid fw3 code">
       .w2 (2rem)
-    </div><div class="f6 h1 mb2 lh-solid fw3 code">
+    </div>
+    <div class="f6 h1 mb2 lh-solid fw3 code">
       .w3 (4rem)
-    </div><div class="f6 h1 mb2 lh-solid fw3 code">
+    </div>
+    <div class="f6 h1 mb2 lh-solid fw3 code">
       .w4 (8rem)
-    </div><div class="f6 h1 mb2 lh-solid fw3 code">
+    </div>
+    <div class="f6 h1 mb2 lh-solid fw3 code">
       .w5 (16rem)
     </div>
   </div>

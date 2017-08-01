@@ -12,7 +12,7 @@
   </form>
 </div>
 ```
-## Input example
+## Input inline
 
 ```html
 <div >
@@ -25,27 +25,13 @@
 
     <section class="pv3 pl3-ns black-80 w-100 w-50-ns fl">
       <label for="password" class="f6 b db mb2">Password</label>
-      <input id="password" value="hunter2" class="mb2 input-reset bg-transparent b--c-red pv3 ph1 bt-0 bl-0 br-0 bw1 bb w-100" type="password" aria-describedby="pass-desc">
-      <small id="password-desc" class="f6 c-red db mb2">Error message</small>
+      <input id="password" value="hunter2" class="mb2 input-reset bg-transparent b--black-20 pv3 ph1 bt-0 bl-0 br-0 bw1 bb w-100" type="password" aria-describedby="pass-desc">
     </section>
-
-    <section class="pv3 black-80 w-100 w-100-ns fl">
-      <label for="password" class="f6 b db mb2">Placeholder example</label>
-      <input id="password" placeholder="Placeholder" class="mb2 input-reset bg-transparent b--black-20 pv3 ph1 bt-0 bl-0 br-0 bw1 bb w-100" type="text" aria-describedby="pass-desc">
-    </section>
-
-    <section class="pv3 black-80 w-100 w-100-ns fl">
-      <label for="password" class="f6 b db mb2">Full width form</label>
-      <input id="password" class="mb2 input-reset bg-transparent b--black-20 pv3 ph1 bt-0 bl-0 br-0 bw1 bb w-100" type="text" aria-describedby="pass-desc">
-    </section>
-    <a href="javascript:;" class="pv3 ph4 bg-c-blue white link dim dib">Log in</a>
-
   </form>
-
 </div>
 ```
 
-
+## Fieldset
 ```html
 <div class="flex flex-wrap pa0 pa4-ns">
   <form class="w-100">
@@ -59,21 +45,20 @@
 
       <section class="pv3 pl3-ns black-80 w-100 w-50-ns fl">
         <label for="password" class="f6 b db mb2">Password</label>
-        <input id="password" value="hunter2" class="mb2 input-reset bg-transparent b--c-red pv3 ph1 bt-0 bl-0 br-0 bw1 bb w-100" type="password" aria-describedby="pass-desc">
-        <small id="password-desc" class="f6 c-red db mb2">Error message</small>
+        <input id="password" value="hunter2" class="mb2 input-reset bg-transparent b--black-20 pv3 ph1 bt-0 bl-0 br-0 bw1 bb w-100" type="password" aria-describedby="pass-desc">
       </section>
     </fieldset>
-
-    <section class="pv3 black-80 w-100 w-100-ns fl">
-      <label for="password" class="f6 b db mb2">Placeholder example</label>
-      <input id="password" placeholder="Placeholder" class="mb2 input-reset bg-transparent b--black-20 pv3 ph1 bt-0 bl-0 br-0 bw1 bb w-100" type="text" aria-describedby="pass-desc">
-    </section>
-
-    <section class="pv3 black-80 w-100 w-100-ns fl">
-      <label for="password" class="f6 b db mb2">Full width form</label>
-      <input id="password" class="mb2 input-reset bg-transparent b--black-20 pv3 ph1 bt-0 bl-0 br-0 bw1 bb w-100" type="text" aria-describedby="pass-desc">
-    </section>
   </form>
-  <a href="javascript:;" class="pv3 ph4 bg-c-blue white link dim dib">Log in</a>
+</div>
+```
+
+## Error message
+```html
+<div class="flex flex-wrap pa0 pa4-ns">
+  <section class="pv3 pl3-ns black-80 w-100 fl">
+    <label for="password" class="f6 b db mb2">Password</label>
+    <input id="password" value="hunter2" class="mb2 input-reset bg-transparent b--c-red pv3 ph1 bt-0 bl-0 br-0 bw1 bb w-100" type="password" aria-describedby="pass-desc">
+    <small id="password-desc" class="f6 c-red db mb2">Error message</small>
+  </section>
 </div>
 ```

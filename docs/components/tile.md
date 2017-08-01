@@ -14,7 +14,7 @@
           </div>
           <div class="aspect-ratio aspect-ratio--1x1 bg-light-gray">
             <div class="hover-motion-parent pointer aspect-ratio--object pa4 flex">
-              <img class="self-center alt-v-align hover-motion-child" src="assets/images/camera.png" alt="">
+              <img class="self-center alt-v-align hover-motion-child transition-in-out" src="assets/images/camera.png" alt="">
             </div>
           </div>
         </div>
@@ -35,7 +35,7 @@
       <div class="list-content w-100">
         <div class="aspect-ratio aspect-ratio--1x1 bg-light-gray">
           <div class="hover-motion-parent pointer aspect-ratio--object pa4 flex">
-            <img class="self-center hover-motion-child" src="assets/images/camera.png" alt="">
+            <img class="self-center hover-motion-child transition-in-out" src="assets/images/camera.png" alt="">
           </div>
         </div>
         <h5 class="ph2 f5 lh-copy ma0 mt3 gotham-medium">Canon EOS M5 + EF-M 15-45mm f/3.5-6.3 IS STM</h5>
@@ -53,7 +53,7 @@
       <div class="list-content w-100">
         <div class="aspect-ratio aspect-ratio--1x1 bg-light-gray">
           <div class="hover-motion-parent pointer aspect-ratio--object pa4 flex">
-            <img class="self-center hover-motion-child" src="assets/images/genericimage.jpg" alt="">
+            <img class="self-center hover-motion-child transition-in-out" src="assets/images/genericimage.jpg" alt="">
           </div>
         </div>
         <h5 class="ph2 f5 lh-copy ma0 mt3 gotham-medium">Photo paper A4</h5>
@@ -67,7 +67,7 @@
       <div class="list-content w-100">
         <div class="aspect-ratio aspect-ratio--1x1 bg-light-gray">
           <div class="hover-motion-parent pointer aspect-ratio--object pa4 flex">
-            <img class="self-center hover-motion-child" src="assets/images/genericimage.jpg" alt="">
+            <img class="self-center hover-motion-child transition-in-out" src="assets/images/genericimage.jpg" alt="">
           </div>
         </div>
         <h5 class="ph2 f5 lh-copy ma0 mt3 gotham-medium">Photo paper A4</h5>
