@@ -2,8 +2,19 @@
 
 ```html|plain
 <div class="bg-near-white">
-<header class="dt w-100">
+<header class="dt w-100 relative">
   <div style="background:url(assets/images/genericimage.jpg) no-repeat center right;background-size: cover;" class="dtc h5 v-mid cover">
+  <div class="dib pl4 pa3-ns absolute right-1 bottom-1 flex items-center">
+    <div class="pr3">
+      <p class="f7 ma0 ttu fw5 tracked">Taken with EOS 5Ds(r)</p>
+      <div class="fl f7 b pr3 pt2">f/11</div>
+      <div class="fl f7 b pr3 pt2">1/100</div>
+      <div class="fl f7 b pt2">ISO</div>
+    </div>
+    <div class="br-100 fl bg-white hover-bg-near-white hover-motion-parent pointer w3 h3 overflow-hidden pa3 flex-none">
+      <img class="fit-contain h-100 w-100 hover-motion-child transition-in-out" src="assets/images/camera.png">
+    </div>
+  </div>
   </div>
 </header>
 <div class="ph3 ph4-m ph5-l pv4">
