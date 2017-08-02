@@ -45,7 +45,7 @@ Motion brings pages to life, delights the user and brings familiarity from the p
 ```html|plain,no-source
 <div class="mt4 w-100 f7">
   <div class="flex justify-between flex-column flex-column-m flex-row-l">
-    <code>.transition-warp</code><code class="ba ph2 pv1 br2 b--black-10">cubic-bezier(0, 0.72, 0.24, 0.96)</code>
+    <code>.transition-warp</code><code class="ba ph2 pv1 br2 b--black-10">cubic-bezier(0,1,0,1)</code>
   </div>
   <div class="h2 bg-near-white overflow-hidden mt3">
     <span class="transition-warp bg-measure-h transform-origin-reset w-100 h2 dib"></span>
@@ -55,7 +55,7 @@ Motion brings pages to life, delights the user and brings familiarity from the p
 ```html|plain,no-source
 <div class="mt4 w-100 f7">
   <div class="flex justify-between flex-column flex-column-m flex-row-l">
-    <code>.transition-in-out</code><code class="ba ph2 pv1 br2 b--black-10">cubic-bezier(0, 0.72, 0.24, 0.96)</code>
+    <code>.transition-in-out</code><code class="ba ph2 pv1 br2 b--black-10">cubic-bezier(.5,0,0,1)</code>
   </div>
   <div class="h2 bg-near-white overflow-hidden mt3">
     <span class="transition-in-out bg-measure-h transform-origin-reset w-100 h2 dib"></span>
