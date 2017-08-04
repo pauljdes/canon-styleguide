@@ -1,11 +1,11 @@
-Canon uses a grid logic to help keep things tidy.
+> Canon uses a grid logic to help keep things tidy.
 
 It's quite simple really. When designing keep in mind: **multiples of 4**.
 ```html|plain,no-source
-<div class="flex flex-column">
-  <pre class="ma0 pb1">4 + 4  = <span class="shadow-1 pv0 br1 bg-white ph1">8</span> </pre>
-  <pre class="ma0 pb1">4 + 8  = <span class="shadow-1 pv0 br1 bg-white ph1">12</span></pre>
-  <pre class="ma0 pb1">4 + 12 = <span class="shadow-1 pv0 br1 bg-white ph1">16</span></pre>
+<div class="flex flex-column gray">
+  <pre class="ma0 pb1"><b>4</b> + 4  = <span class="shadow-1 pv0 br1 bg-white black ph1">8</span> </pre>
+  <pre class="ma0 pb1"><b>4</b> + 8  = <span class="shadow-1 pv0 br1 bg-white black ph1">12</span></pre>
+  <pre class="ma0 pb1"><b>4</b> + 12 = <span class="shadow-1 pv0 br1 bg-white black ph1">16</span></pre>
 </div>
 
 ```

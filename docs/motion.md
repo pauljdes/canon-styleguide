@@ -62,3 +62,30 @@ Motion brings pages to life, delights the user and brings familiarity from the p
   </div>
 </div>
 ```
+
+## Animation durations
+
+```html|plain,no-source
+<div class="flex flex-wrap">
+  <div class="mr4 relative mb4">
+    <div class="w4 h4 bg-c-red pulse-3 transition-linear"></div>
+    <div class="w4 h4 bg-c-red o-20 absolute top-0 left-0"></div>
+    <span class="tc w-100 dib mt2 f7">.transition-duration-3</span>
+  </div>
+  <div class="mr4 relative mb4">
+    <div class="w4 h4 bg-c-red pulse-4 transition-linear"></div>
+    <div class="w4 h4 bg-c-red o-20 absolute top-0 left-0"></div>
+    <span class="tc w-100 dib mt2 f7">.transition-duration-4</span>
+  </div>
+  <div class="mr4 relative mb4">
+    <div class="w4 h4 bg-c-red pulse-6 transition-linear"></div>
+    <div class="w4 h4 bg-c-red o-20 absolute top-0 left-0"></div>
+    <span class="tc w-100 dib mt2 f7">.transition-duration-6</span>
+  </div>
+  <div class="mr4 relative mb4">
+    <div class="w4 h4 bg-c-red pulse-8 transition-linear"></div>
+    <div class="w4 h4 bg-c-red o-20 absolute top-0 left-0"></div>
+    <span class="tc w-100 dib mt2 f7">.transition-duration-8</span>
+  </div>
+</div>
+```

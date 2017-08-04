@@ -101,13 +101,13 @@
 
 ## Border reset
 ```html|plain,no-source
-<div class="flex flex-wrap"><div class="mr3 mb3"><div class="f6 code center flex items-center justify-center mb2 h3 br b--c-red w4 bw2 ba bt-0">
+<div class="flex flex-wrap"><div class="mr3 mb3"><div class="f6 code center flex items-center justify-center mb2 h3 br b--c-red w4 ba bt-0">
       .bt-0
-    </div> <!----></div><div class="mr3 mb3"><div class="f6 code center flex items-center justify-center mb2 h3 br b--c-red w4 bw2 ba br-0">
+    </div> <!----></div><div class="mr3 mb3"><div class="f6 code center flex items-center justify-center mb2 h3 br b--c-red w4 ba br-0">
       .br-0
-    </div> <!----></div><div class="mr3 mb3"><div class="f6 code center flex items-center justify-center mb2 h3 br b--c-red w4 bw2 ba bb-0">
+    </div> <!----></div><div class="mr3 mb3"><div class="f6 code center flex items-center justify-center mb2 h3 br b--c-red w4 ba bb-0">
       .bb-0
-    </div> <!----></div><div class="mr3 mb3"><div class="f6 code center flex items-center justify-center mb2 h3 br b--c-red w4 bw2 ba bl-0">
+    </div> <!----></div><div class="mr3 mb3"><div class="f6 code center flex items-center justify-center mb2 h3 br b--c-red w4 ba bl-0">
       .bl-0
     </div> <!----></div>
 </div>

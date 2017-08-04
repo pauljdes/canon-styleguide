@@ -59,6 +59,21 @@
   transform-origin: 0;
 }
 
+@keyframes pulse {
+  0%  {
+    transform: scale(0);
+
+  }
+  50%  {
+    transform: scale(.40);
+
+  }
+  100%  {
+    transform: scale(0);
+
+  }
+}
+
 @keyframes move {
   0%  {
     transform: translate(-100%);
@@ -77,26 +92,49 @@
   }
 }
 
+.pulse-3 {
+  animation: .6s pulse infinite;
+}
+.pulse-4 {
+  animation: .8s pulse infinite;
+}
+.pulse-6 {
+  animation: 1.2s pulse infinite;
+}
+.pulse-8 {
+  animation: 1.6s pulse infinite;
+}
+
+.transition-duration-3 {
+  transition-duration: .3s;
+}
+.transition-duration-4 {
+  transition-duration: .4s;
+}
+.transition-duration-6 {
+  transition-duration: .6s;
+}
+.transition-duration-8 {
+  transition-duration: .8s;
+}
+
 [class^="transition"] {
   animation: 5s move infinite;
 }
 
 .transition-linear {
   animation-timing-function: linear;
-  transition: .4s transform linear;
+  transition-timing-function: linear;
 }
-
 .transition-cubic {
   animation-timing-function: cubic-bezier(0, 0.72, 0.24, 0.96);
-  transition: .4s transform cubic-bezier(0, 0.72, 0.24, 0.96);
+  transition-timing-function: cubic-bezier(0, 0.72, 0.24, 0.96);
 }
-
 .transition-warp {
   animation-timing-function: cubic-bezier(0,1,0,1);
-  transition: .6s transform cubic-bezier(0,1,0,1);
+  transition-timing-function: cubic-bezier(0,1,0,1);
 }
-
 .transition-in-out {
   animation-timing-function: cubic-bezier(.5,0,0,1);
-  transition: .3s transform cubic-bezier(.5,0,0,1);
+  transition-timing-function: cubic-bezier(.5,0,0,1);
 }
